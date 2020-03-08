@@ -81,13 +81,6 @@ def import_seed(word):
 
 
 
-
-	
-	
-
-
-
-
 entropy = generate_seed()
 generate_mnemonic(entropy,word)
 import_seed(word)

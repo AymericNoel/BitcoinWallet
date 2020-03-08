@@ -1,24 +1,19 @@
-Bonjour à tous 
 
-Voici le TD2 de Jérémy MARTIN-COCHER  et Aymeric NOEL.
+# Bitcoin wallet implementation 
 
-Les consignes étaient de : 
-        Créer un repo github et le partager
-        avec le prof (2 pts)
-        • Créer un programme python ou JS
-        interactif en ligne de commande (2pts)
-        • Créer un entier aléatoire pouvant servir
-        de seed
-        à un wallet de façon sécurisée
-        (2 pts)
-        • Représenter cette seed en binaire et le
-        découper en lot de 11 bits (2 pts)
-        • Attribuer
-        à chaque lot un mot selon la
-        liste BIP 39 et afficher la seed en
-        mnémonique (2 pts)
-        • Permettre l’import d’une seed
-        mnémonique (2 pts)
+### Here is a bitcoin wallet implementation in Python according to the BIP 32 and the BIP 39
+
+What we have done : 
+
+- Interactive program in python
+
+- Create a random integer that can be used as a seed to a wallet securely
+
+- Represent this seed in binary and cut it in 11-bit batches
+
+- Assign to each batch a word according to the list BIP 39 and display the seed in mnemonic 
+
+- Allowing the import of a mnemonic seed  
 
 
-Enjoy ;)
+BY AYMERIC NOEL AND JEREMY MARTIN-COCHER
